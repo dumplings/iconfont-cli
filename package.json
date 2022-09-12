@@ -6,6 +6,7 @@
   "bin": {
     "iconfont": "index.js"
   },
+  "type": "module",
   "scripts": {
     "lint": "standard . --fix"
   },
@@ -22,11 +23,14 @@
   "homepage": "https://github.com/dumplings/iconfont-cli#readme",
   "dependencies": {
     "@caporal/core": "^2.0.2",
+    "chalk": "^5.0.1",
     "standard": "17.0.0",
     "webfont": "^11.2.26"
   },
   "devDependencies": {
     "pre-commit": "^1.2.2"
   },
-  "pre-commit": ["lint"]
+  "pre-commit": [
+    "lint"
+  ]
 }
