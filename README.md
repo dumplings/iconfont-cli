@@ -4,9 +4,9 @@
 ## Example
 
 ```shell
-// exec iconfont
-// [input] svg files path, required
-// [output] output file path, required
-// [-p | --prefix] prefix for class name, optional
+# exec iconfont
+# [input] svg files path, required
+# [output] output file path, required
+# [-p | --prefix] prefix for class name, optional
 $ iconfont ./svg/files/dir ./output -p dump
 ```
