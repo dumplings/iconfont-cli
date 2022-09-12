@@ -18,7 +18,7 @@ program
     const output = path.resolve(process.cwd(), args.output)
     const prefix = options.prefix
     if (!fs.existsSync(output)) {
-      fs.mkdirSync(output)
+      fs.mkdirSync(output, { recursive: true })
     }
     webfont({
       files: `${input}/**/*.svg`,
