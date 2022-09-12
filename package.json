@@ -1,0 +1,32 @@
+{
+  "name": "@dumplings/iconfont",
+  "version": "1.0.0",
+  "description": "参考webfont",
+  "main": "index.js",
+  "bin": {
+    "iconfont": "index.js"
+  },
+  "scripts": {
+    "lint": "standard . --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumplings/iconfont-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dumplings/iconfont-cli/issues"
+  },
+  "homepage": "https://github.com/dumplings/iconfont-cli#readme",
+  "dependencies": {
+    "@caporal/core": "^2.0.2",
+    "standard": "17.0.0",
+    "webfont": "^11.2.26"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": ["lint"]
+}
