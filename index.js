@@ -5,7 +5,7 @@ import path from 'path'
 import { webfont } from 'webfont'
 import chalk from 'chalk'
 
-const { program } = caporal;
+const { program } = caporal
 
 program
   .argument('<input>', 'input')
