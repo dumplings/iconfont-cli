@@ -1,9 +1,11 @@
 #!/usr/bin/env node
-import { program } from '@caporal/core'
+import caporal from '@caporal/core'
 import fs from 'fs'
 import path from 'path'
 import { webfont } from 'webfont'
 import chalk from 'chalk'
+
+const { program } = caporal;
 
 program
   .argument('<input>', 'input')
